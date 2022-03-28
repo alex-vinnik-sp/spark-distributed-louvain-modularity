@@ -1,6 +1,7 @@
 description = 'dga-graphx'
 
 apply plugin: 'scala'
+apply plugin: 'idea'
 
 version = '0.1'
 
@@ -10,8 +11,7 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
-    
-url "https://repository.cloudera.com/artifactory/cloudera-repos"
+        url "https://repository.cloudera.com/artifactory/cloudera-repos"
     }
    
 }
